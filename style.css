@@ -1,0 +1,93 @@
+body {
+  
+  background-color: #f0f0f0;
+   
+}
+a {
+    color: blue; /* Цвет обычной ссылки */ 
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+   }
+   a:visited {
+    color: black; /* Цвет посещённой ссылки */
+   } 
+   a:hover {
+    color: green; /* Цвет ссылки при наведении на нее курсора мыши */  
+    text-decoration: underline; /* Добавляем подчеркивание */
+}
+h1 { /* Стиль заголовка 1-ого уровня */
+  color: black; 
+  font-size: 24pt;
+  font-family: Times new roman; 
+  font-weight: 400;
+}
+p1 { /* Стиль текста краткого описания товара */
+  color: #0000FF;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 16px;
+}
+h2 { /* Стиль заголовка 2-ого уровня */
+  color: #1C1C1C; 
+  font-size: 18pt;
+  font-weight: 400;
+}
+
+p2 { /* Стиль текста подробного описания товара */
+  color: #484343;
+  font-weight: 400;
+  font - size: 16px;
+  line-height: 24px;
+  text-align: left;
+}
+
+ol { /* Стиль списка */
+    color: #8B7765;
+    list-style: none;
+    list-style-image: url(gl.png);
+    padding-left: 24px;
+}
+
+img { /* Рамка рисунка */
+    border: 5px solid black;
+    font-family: cursive; 
+    
+}
+
+ b
+{
+  padding-left: 185px;
+}
+
+/*Изменение стиля input*/
+input[type=name] {
+  border: 2px solid black;
+  border-radius: 8px;
+  line-height: 28px;
+  font-size:14px;
+  font-family : "Times New Roman", Georgia, Serif;
+}
+
+input[type=email] {
+  border: 2px solid black;
+  border-radius: 8px;
+  line-height: 28px;
+  font-size:14px;
+  font-family : "Times New Roman", Georgia, Serif;
+}
+
+input[type=topic] {
+  border: 2px solid black;
+  border-radius: 8px;
+  line-height: 28px;
+  font-size:14px;
+  font-family : "Times New Roman", Georgia, Serif;
+}
+
+textarea 
+{ 
+  border: 2px solid black;
+  border-radius: 8px;
+  line-height: 28px;
+  font-size:14px;
+  font-family : "Times New Roman", Georgia, Serif;
+}
